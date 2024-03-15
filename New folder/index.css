@@ -1,0 +1,75 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    background-color: rgb(67 106 255 / 36%);
+    border-color: black;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border-radius: 2%;
+    border: solid;
+    border-color: rgb(0, 52, 163);
+}
+h1{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 10%;
+}
+.div_quiz{
+    display: flex;
+    background-color: rgb(67 106 255 / 36%);
+    border-color: black;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    border-radius: 2%;
+    border: solid;
+    border-color: rgb(0, 52, 163);
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 27%;
+}
+.botao_dragonball{
+    background-image: url(https://media.giphy.com/media/DEyAFp5KzCXte/giphy.gif);
+    background-position: center;
+    background-size: 100%;
+    border: solid;
+    border-radius: 2%;
+    border-color: rgb(1, 32, 66);
+    border-radius: 10%;
+    width: 200px;
+    height: 100px;
+
+}
+.botao_futebol{
+    background-image: url(https://capricho.abril.com.br/wp-content/uploads/2022/12/tenor-sport-tv.gif?w=300);
+    background-position: center;
+    background-size: 100%;
+    border: solid;
+    border-radius: 2%;
+    border-color: rgb(1, 32, 66);
+    border-radius: 10%;
+    width: 200px;
+    height: 100px;
+
+}
+.botao_naruto{
+    background-image: url(https://s.aficionados.com.br/imagens/rasengan.gif);
+    background-position: center;
+    background-size: 100%;
+    border: solid;
+    border-radius: 2%;
+    border-color: rgb(1, 32, 66);
+    border-radius: 10%;
+    width: 200px;
+    height: 100px;
+  
+}
+.div_botoes{
+    display: flex;
+}
